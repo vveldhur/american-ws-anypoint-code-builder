@@ -211,9 +211,7 @@ output application/json
           <![CDATA[%dw 2.0
 output application/json
 ---
-{
-  message: "Flight added (but not really)"
-} as Object {encoding: "UTF-8", mediaType: "application/json"}]]>
+{message: "Flight added (but not really)"} as Object {encoding: "UTF-8", mediaType: "application/json"}]]>
         </ee:set-payload>
       </ee:message>
     </ee:transform>
